@@ -4,6 +4,22 @@ const rightBtn= document.getElementById('right')
 
 const img= document.getElementById('#imgs img')
 
+console.log(img)
 let idx = 0
 
 let interval = setInterval(run,2000)
+
+
+function run(){
+    idx++
+    changeImage()
+}
+
+function  changeImage(){
+    if(idx >img.length){
+
+    }
+
+
+
+}
